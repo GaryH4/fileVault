@@ -50,7 +50,8 @@ services:
       - PUID=65534
       - PGID=65534
       - UMASK_SET=022
-      - RPC_SECRET=<your_password> #set your RPC password
+      #set your RPC password
+      - RPC_SECRET=<your_password>
       - RPC_PORT=6800
       - LISTEN_PORT=6888
       - DISK_CACHE=64M
