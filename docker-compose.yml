@@ -37,7 +37,7 @@ services:
   ariang:
     image: p3terx/ariang
     depends_on:
-      aria2-pro
+      - aria2-pro
     restart: unless-stopped
     logging:
       driver: json-file

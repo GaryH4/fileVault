@@ -13,7 +13,7 @@ This docker compose file is using these images:
 
 ## SSL
 
-SSL is enabled by default, one needs to set his own certs in `conf/nginx/http.conf`, and store in ssl
+SSL is enabled by default, one needs to set his own certs in `./conf/nginx/http.conf`, and store in ssl
 
 Since I am using [Cloudflare](https://www.cloudflare.com) to protect my server, its `origin server` certifacate is set. You can also use your own cert or use [acme.sh](https://github.com/acmesh-official/acme.sh)
 
